@@ -14,6 +14,9 @@
 		8543C7F62768F33300040A57 /* My_Dogs.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 8543C7F42768F33300040A57 /* My_Dogs.xcdatamodeld */; };
 		8543C7F82768F33500040A57 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 8543C7F72768F33500040A57 /* Assets.xcassets */; };
 		8543C7FB2768F33500040A57 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 8543C7F92768F33500040A57 /* LaunchScreen.storyboard */; };
+		8543C8032768F51C00040A57 /* CollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 8543C8022768F51C00040A57 /* CollectionViewController.swift */; };
+		85C39A7D2770EE5F008FC2E5 /* AddDogDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C39A7C2770EE5F008FC2E5 /* AddDogDelegate.swift */; };
+		85C39A7F2770F1A6008FC2E5 /* DogCollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 85C39A7E2770F1A6008FC2E5 /* DogCollectionViewCell.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -26,6 +29,9 @@
 		8543C7F72768F33500040A57 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		8543C7FA2768F33500040A57 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		8543C7FC2768F33500040A57 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		8543C8022768F51C00040A57 /* CollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = CollectionViewController.swift; sourceTree = "<group>"; };
+		85C39A7C2770EE5F008FC2E5 /* AddDogDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AddDogDelegate.swift; sourceTree = "<group>"; };
+		85C39A7E2770F1A6008FC2E5 /* DogCollectionViewCell.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DogCollectionViewCell.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -66,6 +72,9 @@
 				8543C7F92768F33500040A57 /* LaunchScreen.storyboard */,
 				8543C7FC2768F33500040A57 /* Info.plist */,
 				8543C7F42768F33300040A57 /* My_Dogs.xcdatamodeld */,
+				8543C8022768F51C00040A57 /* CollectionViewController.swift */,
+				85C39A7C2770EE5F008FC2E5 /* AddDogDelegate.swift */,
+				85C39A7E2770F1A6008FC2E5 /* DogCollectionViewCell.swift */,
 			);
 			path = "My Dogs";
 			sourceTree = "<group>";
@@ -142,9 +151,12 @@
 			buildActionMask = 2147483647;
 			files = (
 				8543C7F02768F33300040A57 /* ViewController.swift in Sources */,
+				85C39A7D2770EE5F008FC2E5 /* AddDogDelegate.swift in Sources */,
 				8543C7EC2768F33300040A57 /* AppDelegate.swift in Sources */,
+				85C39A7F2770F1A6008FC2E5 /* DogCollectionViewCell.swift in Sources */,
 				8543C7F62768F33300040A57 /* My_Dogs.xcdatamodeld in Sources */,
 				8543C7EE2768F33300040A57 /* SceneDelegate.swift in Sources */,
+				8543C8032768F51C00040A57 /* CollectionViewController.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
